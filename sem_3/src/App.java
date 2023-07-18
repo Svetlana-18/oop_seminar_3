@@ -14,12 +14,12 @@ import StudentDomen.StudentSteam;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        Student s1 = new Student("Иван", "Иванов", 25, 121);
-        Student s2 = new Student("Игорь", "Петров", 23, 104);
-        Student s3 = new Student("Иван", "Сидоров", 22, 21);
-        Student s4 = new Student("Игорь", "Квашин", 23, 444);
-        Student s5 = new Student("Даша", "Цветкова", 23, 33);
-        Student s6 = new Student("Лена", "Леонова", 23, 1);
+        Student s1 = new Student("Иван", "Иванов", 25, 121, 1);
+        Student s2 = new Student("Игорь", "Петров", 23, 104, 2);
+        Student s3 = new Student("Иван", "Сидоров", 22, 21, 1);
+        Student s4 = new Student("Игорь", "Квашин", 23, 444, 3);
+        Student s5 = new Student("Даша", "Цветкова", 23, 33, 3);
+        Student s6 = new Student("Лена", "Леонова", 23, 1, 3);
 
         List<Student> listStud = new ArrayList<Student>();
         listStud.add(s1);
@@ -37,6 +37,9 @@ public class App {
             System.out.println(stud);
         }
 
-        
+        // Collections.sort(course.getStudentcourse());
+        // for (Student stud : course) {
+        //     System.out.println(stud);
+        // }
     }
 }
